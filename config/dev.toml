@@ -1,0 +1,10 @@
+[tpulus]
+host = '192.168.50.163'
+port = 8890
+prefix = 'tplus/api/v2'
+appkey = 'fa50f9d4-1551-43b4-b070-3d27eaf07c4f'
+appsecret = 'ysnbmo'
+username = '15322094709'
+userpwd = 'qwe123'
+accnum = '001'
+privatekey = 'D:\program\changjie.tp.openapi.test\private_key\cjet_pri.pem'

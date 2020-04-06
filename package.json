@@ -1,0 +1,29 @@
+{
+  "name": "wuliangye",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev npx tsnd --inspect-brk --respawn ./src/app.ts"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.2",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^7.0.12",
+    "@types/qs": "^6.9.1",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}

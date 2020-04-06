@@ -1,0 +1,48 @@
+{
+  "_from": "chanjet.tc.openapisdk.node",
+  "_id": "chanjet.tc.openapisdk.node@0.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-j2u1bDDrik9T1bNBRzf6wD2ljJ05P/F0eJS2bK3+f6MBOT1fpjY8Kmxy9hRU6gFt6QdVIM3nh9k/fUUZnVimHA==",
+  "_location": "/chanjet.tc.openapisdk.node",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "chanjet.tc.openapisdk.node",
+    "name": "chanjet.tc.openapisdk.node",
+    "escapedName": "chanjet.tc.openapisdk.node",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/chanjet.tc.openapisdk.node/-/chanjet.tc.openapisdk.node-0.0.9.tgz",
+  "_shasum": "bb3c28a2df92bbf437657eff9799beca78286348",
+  "_spec": "chanjet.tc.openapisdk.node",
+  "_where": "D:\\project\\yongyou-sdk",
+  "author": {
+    "name": "chanjet"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.0"
+  },
+  "deprecated": false,
+  "description": "t+系列产品OpenApi接口SDK Node版",
+  "keywords": [
+    "T+",
+    "OpenApi",
+    "SDK"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "chanjet.tc.openapisdk.node",
+  "scripts": {
+    "test": "mocha ./test.js"
+  },
+  "version": "0.0.9"
+}
