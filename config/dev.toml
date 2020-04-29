@@ -1,10 +1,27 @@
-[tpulus]
-host = '192.168.50.163'
-port = 8890
+[yongyou]
+host = '10.0.136.120'
+port = 8899
 prefix = 'tplus/api/v2'
 appkey = 'fa50f9d4-1551-43b4-b070-3d27eaf07c4f'
 appsecret = 'ysnbmo'
-username = '15322094709'
-userpwd = 'qwe123'
-accnum = '001'
-privatekey = 'D:\program\changjie.tp.openapi.test\private_key\cjet_pri.pem'
+username = '364613604@qq.com' # 用户名
+userpwd = 'wly123456' # 密码
+accnum = '001' # 账套号
+privatekey = './private_key/cjet_pri.pem' # 密钥路径
+customer = 'K010001' # 客户编码
+invoiceType = '00' # 发票类型
+department = '13' # 部门编码
+clerk = '13001' # 业务员编码
+tokenRefresh = 1200 # token重新获取间隔(单位: 秒)
+unit = '瓶' # 单位
+timeout = 10 # 超时时间(单位: 秒)
+
+[anji]
+host = 'ajlog.cn'
+port = 15537
+prefix = 'wlyedi/anjiedi'
+appid = 'V0xZR0ZTQyUyNkFKV0w='
+secret = 'VmpCNFdsSXdXbFJSZVZWNVRtdEdTMVl3ZHlVelJBJTNEJTNE'
+companycode = 'WLYGFSC'
+timeout = 10 # 超时时间(单位: 秒)
+ipWhiteList = [ '221.10.133.130' ] # ip白名单
